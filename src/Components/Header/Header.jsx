@@ -4,7 +4,7 @@ import { ItemNavBar } from "../../UI/ItemNavbar/ItemNavbar"
 
 export const Header = () => {
   let styleItem = 'text-lg' 
-  let styleButton = 'bg-blue-300 p-2 hover:text-white rounded font-bold hover:bg-teal-500'
+  let styleButton = 'bg-blue-300 p-2 hover:text-white rounded font-bold hover:bg-red-700'
   return (
     <header className='flex flex-wrap items-center justify-center w-full h-24 bg-blue-900'>
         <div className='m-4 text-2xl font-bold text-center text-white w-180 h8 hover:text-teal-200'><a href="/">Practicando Hooks</a></div>

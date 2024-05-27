@@ -20,7 +20,7 @@ export const Calculator = () => {
     <>
         <div>
             <h1 className='m-2 text-5xl font-bold text-center text-teal-500'>Calculator</h1>
-            <div className='flex flex-col items-center justify-center p-8 m-4 w-120 h-80 bg-gradient-to-b from-teal-600 via-emerald-500 to-teal-600 rounded-xl'>
+            <div className='flex flex-col items-center justify-center p-8 m-4 w-120 h-80 bg-gradient-to-b from-violet-700 via-sky-600 to-red-700 rounded-xl'>
       <input 
         onChange={(e) => setNum1(parseFloat(e.target.value))} 
         className='p-2 mb-2 text-xl w-80 rounded-xl' 

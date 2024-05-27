@@ -18,7 +18,7 @@ export const Manager = () => {
         <h1 className="m-2 text-5xl font-bold text-center text-teal-500">
           Task List
         </h1>
-        <div className="flex flex-col items-center justify-center p-10 m-8 w-100 h-280 bg-gradient-to-b from-teal-600 via-emerald-500 to-teal-600 rounded-xl">
+        <div className="flex flex-col items-center justify-center p-10 m-8 w-100 h-280 bg-gradient-to-b from-violet-700 via-sky-600 to-red-700 rounded-xl">
           <input
             type="text"
             placeholder="Name of the task"
@@ -35,7 +35,7 @@ export const Manager = () => {
           />
           <button
             onClick={handleAddTask}
-            className="p-4 font-semibold text-white bg-blue-500 rounded-xl hover:bg-lime-600"
+            className="p-4 font-semibold text-white bg-blue-500 rounded-xl hover:bg-red-700"
           >
             Add Task
           </button>
