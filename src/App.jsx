@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/calc" element={<Calculator />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/ramdonbg" element={<RandomBackground />} />
+        <Route path="/randombg" element={<RandomBackground />} />
         <Route path="/manager" element={<Manager />} />
       </Routes>
     </>

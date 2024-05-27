@@ -13,7 +13,7 @@ export const Header = () => {
             <ItemNavBar style_i={styleItem} style_b={styleButton} links_a={"/calc"} content={"UseState - Calculator"}/>
             <ItemNavBar style_i={styleItem} style_b={styleButton} links_a={"/randombg"} content={"UseState - Random Background"}/>
             <ItemNavBar style_i={styleItem} style_b={styleButton} links_a={"/register"} content={"UseState - Register"}/>
-            <ItemNavBar style_i={styleItem} style_b={styleButton} links_a={"/listwrks"} content={"UseState - Task List"}/>
+            <ItemNavBar style_i={styleItem} style_b={styleButton} links_a={"/manager"} content={"UseState - Task List"}/>
         </NavBar>
     </header>
   )

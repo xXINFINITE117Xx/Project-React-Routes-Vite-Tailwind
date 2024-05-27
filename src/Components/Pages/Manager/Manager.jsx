@@ -16,19 +16,19 @@ export const Manager = () => {
     <>
       <div>
         <h1 className="m-2 text-5xl font-bold text-center text-teal-500">
-          Lista tareas
+          Task List
         </h1>
         <div className="flex flex-col items-center justify-center p-10 m-8 w-100 h-280 bg-gradient-to-b from-teal-600 via-emerald-500 to-teal-600 rounded-xl">
           <input
             type="text"
-            placeholder="Nombre de la tarea"
+            placeholder="Name of the task"
             value={taskName}
             onChange={(e) => setTaskName(e.target.value)}
             className="p-2 m-2 font-bold rounded-xl"
           />
           <input
             type="text"
-            placeholder="Descripción de la tarea"
+            placeholder="Description of the task"
             value={taskDescription}
             onChange={(e) => setTaskDescription(e.target.value)}
             className="p-2 m-2 font-bold rounded-xl"
@@ -37,7 +37,7 @@ export const Manager = () => {
             onClick={handleAddTask}
             className="p-4 font-semibold text-white bg-blue-500 rounded-xl hover:bg-lime-600"
           >
-            Agregar Tarea
+            Add Task
           </button>
           <div className="mt-4">
             {tasks.map((task, index) => (
