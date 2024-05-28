@@ -15,7 +15,7 @@ export const RandomBackground = () => {
       </h1>
       <button 
         onClick={generateRandomColor} 
-        className="p-4 text-2xl font-bold text-white transition duration-300 bg-emerald-500 rounded-xl hover:bg-emerald-700"
+        className="p-4 text-2xl font-bold text-white transition duration-300 bg-blue-700 rounded-xl hover:bg-red-700"
       >
         Generate Random Colour
       </button>

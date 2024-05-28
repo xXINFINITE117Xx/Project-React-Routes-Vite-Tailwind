@@ -15,7 +15,7 @@ export const Manager = () => {
   return (
     <>
       <div>
-        <h1 className="m-2 text-5xl font-bold text-center text-teal-500">
+        <h1 className="m-2 text-5xl font-bold text-center text-blue-700">
           Task List
         </h1>
         <div className="flex flex-col items-center justify-center p-10 m-8 w-100 h-280 bg-gradient-to-b from-violet-700 via-sky-600 to-red-700 rounded-xl">
