@@ -9,7 +9,6 @@ const Saludo = () => {
 
   return (
     <div style={{ margin: '20px', textAlign: 'center' }}>
-      <h2 className='m-2 text-3xl font-bold text-center text-white'>Greeting form</h2>
       <input
         type="text"
         placeholder="Enter your full name"
