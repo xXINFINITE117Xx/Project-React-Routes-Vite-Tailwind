@@ -35,7 +35,7 @@ export const Manager = () => {
           />
           <button
             onClick={handleAddTask}
-            className="p-4 font-semibold text-white bg-blue-500 rounded-xl hover:bg-red-700"
+            className="p-4 mt-5 font-semibold text-white bg-blue-500 rounded-xl hover:bg-red-700"
           >
             Add Task
           </button>
