@@ -10,12 +10,8 @@ import { RandomBackground } from "./Components/Pages/RamdonBackgrond/RamdonBackg
 function App() {
   return (
     <>
-      <Header>
-        <h1 className="w-1/4 ml-12 text-5xl font-extrabold text-sky-400">
-          David dev
-        </h1>
-        <NavBar />
-      </Header>
+      <Header />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calc" element={<Calculator />} />
